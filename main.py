@@ -1,5 +1,5 @@
 import asyncio
-import random
+from config import TOKEN_API
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
@@ -7,7 +7,6 @@ from aiogram.types import Message
 rickroll = "Never gonna give you up!"
 print(rickroll)
 
-TOKEN_API = "6173306659:AAGv-jPLFQFOsMCdykqkZ7HH8O7OAAX4vrc"
 bot = Bot(TOKEN_API)
 dp = Dispatcher()
 
